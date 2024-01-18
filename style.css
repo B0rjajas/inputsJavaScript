@@ -1,0 +1,98 @@
+/* Resetear estilos por defecto del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales del cuerpo del formulario */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*INPORTANTE PARA CENTRAR*/
+  }
+  
+  /* Contenedor del formulario */
+  form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos de los campos de entrada */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos del botón de enviar */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo cuando el cursor pasa sobre el botón */
+  button:hover {
+    background-color: #45a049;
+  }
+
+  input::placeholder  {
+    color: rgb(222, 222, 222);
+  }
+
+
+  /*ERROR**/
+
+
+  /* Estilos para la clase .error */
+.error {
+    color: #ff0000; /* Color rojo para indicar un error */
+    font-weight: bold; /* Texto en negrita */
+    border: 1px solid #ff0000; /* Borde rojo */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Margen inferior */
+  }
+  
+  /* Estilo adicional para resaltar aún más el error en fondos claros */
+  .error-background {
+    background-color: #ffe6e6; /* Fondo rojo claro */
+  }
+
+  
+
+  .opacity {
+    opacity: 0.5;
+  }
+  
+
+  .mensaje-exito {
+    background-color: #dff0d8; /* Color de fondo verde claro */
+    color: #3c763d; /* Color de texto verde oscuro */
+    border: 1px solid #d6e9c6; /* Borde verde claro */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 15px; /* Margen inferior */
+    display: none; /* Inicialmente oculto */
+}
